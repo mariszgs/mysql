@@ -38,6 +38,6 @@ where sexo = 'F' and nacionalidade != 'Brasil' and nascimento between  '1990-1-1
 
 
 -- quantas mulheres tem mais de 1.90 de altura?
-select nome, altura from pessoas
+select count(nome) from pessoas
 where sexo = 'F' and altura > 1.90;
 
